@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    margin-left: 50px;
+}
+h1 {
+    margin: 10px 0;
+    color: white;
+}
+body {
+    /* para hacer un degradado de colores con el fondo de la pagina web */
+     background: linear-gradient(-45deg, rgb(241, 240, 241), rgb(92, 77, 226), rgb(63, 1, 78));
+     /* las siguientes lineas es para evitar que se repita la imagen del degradado de color */
+     background-repeat: no-repeat;
+     height: 100%;
+     margin: 0;
+     background-attachment: fixed;
+     /*estilo de fuente*/
+     /* font-family: "Inconsolata", monospace; */
+     font-family: "Noto Sans Old South Arabian", sans-serif;
+}
+
+/* Personzalizar las letras de la seccion antes del formulario */
+.container {
+    justify-content: center;
+    text-align: center;
+    margin: 10px 250px;
+    border: 1px solid #333;
+}
+.white {
+    color: white;
+
+}
+.etnies {
+    font-size: 70px;
+    text-align: center;
+    margin: 5px 20px;
+    padding: 5px 70px;
+}
+
+/* Estilo para el formulario */
+.contenedor {
+    border: 1px solid #333;
+    margin: 50px;
+    border-radius: 10px;
+    
+}
+.flex{
+    display: block;
+    justify-content: space-around;
+}
+.text-center {
+    text-align: center;
+}
+
+.cuadro {
+    
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sales{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 5px;
+}
+/* .nombre {
+    padding-right: 20px;
+} */
+.formato-nombre {
+    padding-right: 250px;
+    color: white;
+}
+.formato-cuadro {
+    border-radius: 10px;
+    width: 310px;
+    height: 50px;
+}
+
+/* Estilo y configuracion de la seccion del boton con opciones */
+ .control {
+    /* position: relative; */
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+ }
+.boton {
+    background-color: #f9f9f9;
+    color: black;
+    border: 1px solid #333;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+    /* width: 315px;
+    height: 50px; */
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.longitud {
+    width: 315px;
+    height: 55px;
+    padding-right: 5px;
+}
+.drop-boton {
+    display: none;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 310px;
+    height: 50px;
+    position: absolute;
+}
+a {
+    background: white;
+}
+.drop-boton a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drop-boton:hover {
+    background-color: #ddd;
+}
+
+.control:hover .drop-boton {
+    display: block;
+}
+
+.formato-titulo{
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/*estilo y configuracion del cuadro de descripcion*/
+
+.tecno {
+    border-radius: 10px;
+    border:1px solid #333;
+    width: 640px;
+    height: 250px;
+}
